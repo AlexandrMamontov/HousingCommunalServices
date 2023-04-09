@@ -528,6 +528,14 @@
   .news__list {
     flex-direction: column;
   }
+
+  .news__item:not(:last-child) {
+    margin-right: unset;
+  }
+
+  .footer__container {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 576px) {
