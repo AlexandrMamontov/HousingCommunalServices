@@ -256,7 +256,67 @@ body {
 }
 
 /* contracts */
+.contracts__container {
+  padding: 0 140px;
+}
 
+.contracts__title-block {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contracts__photo {
+  margin-right: 20px;
+  height: 400px;
+}
+
+.contracts__name {
+  margin-bottom: 50px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #119FC3;
+}
+
+.contracts__position {
+  width: 500px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #404040;
+}
+
+.contracts__title {
+  margin: 0;
+  margin-bottom: 30px;
+  width: 800px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 47px;
+  color: #404040;
+}
+
+.contracts__text {
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  color: #404040;
+}
 
 /* footer */
 .footer__container {
