@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="media/media.css">
+  <title>ЖКХ</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <a href="main.html" class="header__link">
+        <img src="img/logo.svg" class="header__logo">
+      </a>
+      <nav class="nav header__nav">
+        <ul class="nav__list list-reset">
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Главная
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Объявления
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Фотоальбом
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Прямые договоры
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Оплата коммунальных услуг
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Ответы на вопросы
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-reset header__burger">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 12H21" stroke="#404040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3 6H21" stroke="#404040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3 18H21" stroke="#404040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <button class="header__btn btn-reset" id="search-form-open" aria-label="Поиск">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#404040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M21 21L17 17" stroke="#404040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <form action="" class="header__form form" id="search-form">
+          <input class="form__input" type="text" placeholder="Что будем искать?">
+          <button class="btn-reset form__send" id="search-form-send" type="submit" aria-label="Найти">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48">
+              <path d="M379.154 808.691 156.616 586.154l41.615-41.23 180.923 180.923 383-383.384 41.614 41.614-424.614 424.614Z"/>
+            </svg>
+          </button>
+          <button class="btn-reset form__close" id="search-form-close" type="submit" aria-label="Закрыть">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48">
+              <path d="m248.923 849.076-40.999-41.999L439.001 576 207.924 343.923l40.999-41.999L481 534.001l230.077-232.077 40.999 41.999L521.999 576l230.077 231.077-40.999 41.999L481 616.999 248.923 849.076Z"/>
+            </svg>
+          </button>
+        </form>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__block">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Управляющая компания ООО УК &laquo;Дом&raquo;
+            </h1>
+            <div class="hero__task">
+              Наша задача — оказание профессиональной помощи собственникам и нанимателям жилья в создании комфортных и безопасных условий проживания в многоквартирных домах.
+            </div>
+            <button class="hero__btn btn-reset">
+              Наши дома
+            </button>
+          </div>
+        </div>
+        <div class="hero__descr">
+          Основная цель деятельности Компании — обеспечение уюта и комфорта собственников на территории, поддержание сохранности, чистоты и порядка, а так же оперативное решение проблем собственников, устранение их замечаний и рассмотрение предложений по повышению качества обслуживания.
+        </div>
+      </div>
+    </section>
+
+    <section class="mark">
+      <div class="container mark__container">
+        <div class="mark__text">
+          Уважаемые жители!
+        </div>
+        <div class="mark__descr">
+          Аварийная Диспетчерская служба ООО УК «Дом» работает круглосуточно, без выходных, телефон - +7 920 317-21-41
+        </div>
+      </div>
+    </section>
+
+    <section class="service">
+      <div class="container service__container">
+        <h2 class="service__title">
+          Сервис для потребителей
+        </h2>
+        <div class="service__descr">
+          С помощью сайта вы можете передать показания электросчётчика, связаться с управляющей компанией, написать обращение, оставить отзыв. Это удобно и современно!
+        </div>
+        <ul class="service__list list-reset">
+          <li class="service__item">
+            <img src="img/main-icon-1.svg" class="service__img">
+            <div class="service__block">
+              <h3 class="service__subtitle">Передать показания</h3>
+              <div class="service__text">
+                Показания принимаются с 23 по 25 число каждого месяца. Просим ежемесячно передавать показания
+              </div>
+              <a href="#" class="service__more">Подробнее</a>
+            </div>
+          </li>
+          <li class="service__item">
+            <img src="img/main-icon-2.svg" class="service__img">
+            <div class="service__block">
+              <h3 class="service__subtitle">Заявка в УК</h3>
+              <div class="service__text">
+                Вы всегда можете обратиться к нам. Постараемся быстро помочь! Мы стараемся максимально помочь
+              </div>
+              <a href="#" class="service__more">Подробнее</a>
+            </div>
+          </li>
+          <li class="service__item">
+            <img src="img/main-icon-3.svg" class="service__img">
+            <div class="service__block">
+              <h3 class="service__subtitle">Отзывы клиентов</h3>
+              <div class="service__text">
+                Будем рады услышать от вас отзывы о нашей деятельности. Обращаем ваше внимание, отзывы о…
+              </div>
+              <a href="#" class="service__more">Подробнее</a>
+            </div>
+          </li>
+          <li class="service__item">
+            <img src="img/main-icon-4.svg" class="service__img">
+            <div class="service__block">
+              <h3 class="service__subtitle">О нас</h3>
+              <div class="service__text">
+                ООО УК «Дом» создано 07 июня 2022 года как управляющая и эксплуатирующая организация…
+              </div>
+              <a href="#" class="service__more">Подробнее</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="container info__container">
+        <h2 class="info__title">
+          Информационный стенд
+        </h2>
+        <ul class="info__list list-reset">
+          <li class="info__item">
+            <img src="img/main-icon-5.svg" class="info__img">
+            <h3 class="info__subtitle">Жилищный фонд</h3>
+            <div class="info__descr">
+              Управляющая компания ООО УК «Дом» обслуживает огромное количество многоквартирных домов. Адрес, год постройки и площадь указаны в таблице.
+            </div>
+          </li>
+          <li class="info__item">
+            <img src="img/main-icon-6.svg" class="info__img">
+            <h3 class="info__subtitle">Нормативные документы</h3>
+            <div class="info__descr">
+              Актуальные нормативно-правовые акты, регулирующие жилищныеправоотношения. Является основным источником жилищного права.
+            </div>
+          </li>
+          <li class="info__item">
+            <img src="img/main-icon-7.svg" class="info__img">
+            <h3 class="info__subtitle">Отчётность</h3>
+            <div class="info__descr">
+              Лицензия № 038, годовой отчёт управляющей компании.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="ads">
+      <div class="container ads__container">
+        <h2 class="ads__title">
+          Объявления
+        </h2>
+        <div class="ads__descr">
+          Вся важная и актуальная информация публикуется на официальном сайте компании! Не верьте сторонним источникам.
+        </div>
+        <ul class="ads__list list-reset">
+          <li class="ads__item">
+            <img src="img/main-photo-1.png" class="ads__img">
+            <div class="ads__date">31 декабря 2022 года</div>
+            <div class="ads__text">Срочная информация!</div>
+          </li>
+          <li class="ads__item">
+            <img src="img/main-photo-2.png" class="ads__img">
+            <div class="ads__date">23 ноября 2022 года</div>
+            <div class="ads__text">С днём благодарения друзья!</div>
+          </li>
+          <li class="ads__item">
+            <img src="img/main-photo-3.png" class="ads__img">
+            <div class="ads__date">31 октября 2022 года</div>
+            <div class="ads__text">Срочно, это касается всех жителей!</div>
+          </li>
+          <li class="ads__item">
+            <img src="img/main-photo-4.png" class="ads__img">
+            <div class="ads__date">1 сентября 2022 года</div>
+            <div class="ads__text">Уважаемые собственники.</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="container news__container">
+        <ul class="news__list list-reset">
+          <li class="news__item" style="background-image: url('img/main-photo-5.png');">
+            <img src="img/quote.svg" class="news__img">
+            <h2 class="news__title">АКТУАЛЬНЫЕ ТАРИФЫ ЖКХ</h2>
+          </li>
+          <li class="news__item" style="background: #119FC3;">
+            <img src="img/quote.svg" class="news__img">
+            <h2 class="news__title">ОТЗЫВЫ НАШИХ КЛИЕНТОВ</h2>
+          </li>
+        </ul>
+        <button class="news__btn btn-reset" id="btn-top">
+          <svg width="59" height="89" viewBox="0 0 59 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="29.5" cy="29.5" r="29" transform="rotate(-180 29.5 29.5)" stroke="#E4E4E4"/>
+            <path d="M29 15L29 89M29 15C32.7964 22.3113 35.4854 25.1201 41 27.1772M29 15C25.3395 21.7624 22.5615 24.2824 17 27.1772" stroke="#404040" stroke-width="2"/>
+          </svg>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <ul class="footer__list list-reset">
+      <li class="footer__item">
+        <h2 class="footer__title">
+          О компании
+        </h2>
+        <div class="footer__text">
+          ООО УК «ДОМ» создано 07 июня 2022 года как управляющая и эксплуатирующая организация. Основная цель деятельности компании — обеспечение уюта и комфорта собственников.
+        </div>
+        <h2 class="footer__title">
+          Диспетчерская служба
+        </h2>
+        <div class="footer__descr">
+          Работаем круглосуточно, без выходных +7 920 301-66-30
+        </div>
+      </li>
+      <li class="footer__item">
+        <h2 class="footer__title">
+          Технический отдел “Гусино”
+        </h2>
+        <div class="footer__info">
+          Телефон: +7 920 301-66-30
+        </div>
+        <div class="footer__info">
+          Понедельник-четверг, время работы: 08:00–16:00
+        </div>
+        <div class="footer__info">
+          Пятница, время работы: 08:00–15:00
+        </div>
+        <div class="footer__info">
+          Суббота, воскресенье — выходные дни
+        </div>
+        <div class="footer__info">
+          Перерыв: 12:00-13:00
+        </div>
+      </li>
+      <li class="footer__item">
+        <h2 class="footer__title">
+          Бухгалтерия
+        </h2>
+        <div class="footer__info">
+          Телефон: +7 904 360-55-15
+        </div>
+        <div class="footer__info">
+          Понедельник-четверг, время работы: 09:00–18:00
+        </div>
+        <div class="footer__info">
+          Пятница, время работы: 09:00–17:00
+        </div>
+        <div class="footer__info">
+          Суббота, воскресенье — выходные дни
+        </div>
+        <div class="footer__info">
+          Перерыв: 13:00-14:00
+        </div>
+      </li>
+      <li class="footer__item">
+        <h2 class="footer__title">
+          Технический участок “Гусино”
+        </h2>
+        <div class="footer__info">
+          Телефон: +7 920 301-66-30
+        </div>
+        <div class="footer__info">
+          Понедельник-четверг, время работы: 08:00–16:00
+        </div>
+        <div class="footer__info">
+          Пятница, время работы: 08:00–15:00
+        </div>
+        <div class="footer__info">
+          Перерыв: 12:00–13:00
+        </div>
+        <div class="footer__info">
+          Суббота, воскресенье — выходные дни
+        </div>
+      </li>
+    </ul>
+    </div>
+  </footer>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+  <script src="js/script.js"></script>
+
+  <script>
+      var docWidth = document.documentElement.offsetWidth;
+      [].forEach.call(
+        document.querySelectorAll('*'),
+        function (el) {
+          if (el.offsetWidth > docWidth) {
+            console.log(el);
+          }
+        }
+      );
+  </script>
+
+</body>
+</html>
