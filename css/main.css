@@ -502,6 +502,7 @@ body {
 
 .news__list {
   display: flex;
+  align-items: center;
 }
 
 .news__item:not(:last-child) {
