@@ -550,28 +550,6 @@ body {
   opacity: 0;;
 }
 
-.news__btn {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-}
-
-.news__btn circle {
-  transition: stroke .3s ease-in-out;
-}
-
-.news__btn path {
-  transition: stroke .3s ease-in-out;
-}
-
-.news__btn:hover circle {
-  stroke: #119FC3;
-}
-
-.news__btn:hover path {
-  stroke: #119FC3;
-}
-
 /* footer */
 .footer__container {
   display: flex;
