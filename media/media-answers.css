@@ -128,6 +128,26 @@
     right: 60px;
   }
 
+  .answers__container {
+    padding: 0 60px;
+  }
+
+  .answers__title {
+    font-size: 30px;
+  }
+
+  .answers__subtitle {
+    font-size: 20px;
+  }
+
+  .answers__question {
+    font-size: 14px;
+  }
+
+  .answers__text {
+    font-size: 12px;
+  }
+
   .footer__container {
     padding: 40px 60px;
   }
@@ -193,6 +213,22 @@
     right: 20px;
   }
 
+  .answers__container {
+    padding: 0 20px;
+  }
+
+  .answers__title {
+    font-size: 24px;
+  }
+
+  .answers__subtitle {
+    font-size: 18px;
+  }
+
+  .answers__question {
+    font-size: 14px;
+  }
+
   .footer__container {
     padding: 20px;
   }
@@ -240,5 +276,26 @@
 
   .footer__text {
     margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 470px) {
+  .answers__title {
+    margin-bottom: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .answers__subtitle {
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .answers__question {
+    text-align: center;
+  }
+
+  .answers__text {
+    text-align: justify;
   }
 }
