@@ -32,3 +32,58 @@ menuLinks.forEach(function (el) {
     document.body.classList.remove('stop-scroll');
   })
 })
+
+// validate form
+let validation = new JustValidate('#form', {
+  errorLabelStyle: {
+    color: '#FF5C00'
+  }
+})
+
+validation.addField("#name", [
+  {
+    rule: 'required',
+    errorMessage: 'Вы не ввели имя'
+  },
+  {
+    rule: 'minLength',
+    value: 2,
+    errorMessage: 'Минимум 2 символа'
+  },
+])
+
+validation.addField("#surname", [
+  {
+    rule: 'required',
+    errorMessage: 'Вы не ввели фамилию'
+  },
+  {
+    rule: 'minLength',
+    value: 2,
+    errorMessage: 'Минимум 2 символа'
+  },
+])
+
+validation.addField("#num", [
+  {
+    rule: 'required',
+    errorMessage: 'Вы не ввели лицевой счёт'
+  },
+  {
+    rule: 'minLength',
+    value: 14,
+    errorMessage: 'Должно быть не менее 14 цифр'
+  },
+  {
+    rule: 'maxLength',
+    value: 14,
+    errorMessage: 'Должно быть не более 14 цифр'
+  },
+])
+
+validation.addField("#sum", [
+  {
+    rule: 'required',
+    errorMessage: 'Вы не ввели сумму'
+  },
+])

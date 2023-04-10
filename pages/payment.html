@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/payment.css">
   <link rel="stylesheet" href="../media/media-payment.css">
-  <title>Ответы на вопросы</title>
+  <title>Оплата коммунальных услуг</title>
 </head>
 <body>
 
@@ -90,6 +90,37 @@
 
     <section class="payment">
       <div class="container payment__container">
+        <div class="payment__block">
+          <div class="payment__content">
+            <h1 class="payment__title">
+              Оплата коммунальных услуг дистанционно
+            </h1>
+            <div class="payment__text">
+              Напоминаем, что согласно условиям договора, вам необходимо своевременно производить оплату коммунальных услуг. Текущая оплата производится до 10 числа последующего месяца. Оплата с 15-го числа считается просроченной
+            </div>
+          </div>
+          <img src="../img/payment-photo.png" class="payment__img">
+        </div>
+        <form action="https://jsonplaceholder.typicode.com/posts" id="form" method="post" class="payment__form" autocomplete="off">
+          <h2 class="payment__subtitle">
+            Оплата коммунальных услуг
+          </h2>
+          <label class="payment__top">
+            <input type="checkbox" required>
+            <span>Я даю согласие на обработку персональных данных, соглашаюсь с политикой конфиденциальности.</span>
+          </label>
+          <div class="payment__bottom">
+            <div class="payment__left">
+              <input id="name" name="Имя" type="text" placeholder="Имя" data-validate-field="name" autocomplete="off" required>
+              <input id="surname" name="Фамилия" type="text" placeholder="Фамилия" data-validate-field="name" autocomplete="off" required>
+              <input id="num" name="Лицевой счёт" type="text" placeholder="Лицевой счёт" autocomplete="off" required>
+            </div>
+            <div class="payment__right">
+              <input id="sum" name="Сумма" type="text" placeholder="0,00 &#8381;" autocomplete="off" required>
+              <button type="submit" class="payment__btn btn-reset">Оплатить</button>
+            </div>
+          </div>
+        </form>
       </div>
     </section>
 
@@ -177,7 +208,7 @@
   </footer>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
   <script src="../js/script.js"></script>
 </body>
 </html>
