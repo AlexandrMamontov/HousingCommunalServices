@@ -302,6 +302,10 @@
     height: 220px;
   }
 
+  .contracts__position {
+    width: 320px;
+  }
+
   .contracts__title {
     font-size: 22px;
     line-height: 30px;
