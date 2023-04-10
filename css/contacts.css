@@ -256,7 +256,71 @@ body {
 }
 
 /* contacts */
+.contacts {
+  margin-bottom: 50px;
+}
 
+.contacts__container {
+  padding: 0 140px;
+}
+
+.contacts__title {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 47px;
+  color: #404040;
+}
+
+.contacts__subtitle {
+  margin: 0;
+  margin-bottom: 12px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #404040;
+}
+
+.contacts__list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.contacts__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.not-img {
+  padding-left: 39px;
+}
+
+.contacts__img {
+  margin-right: 15px;
+}
+
+.contacts__text {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  color: #404040;
+}
 
 /* footer */
 .footer__container {
