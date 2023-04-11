@@ -90,6 +90,28 @@
 
     <section class="indications">
       <div class="container indications__container">
+        <div class="indications__bar">
+          <h1 class="indications__title">
+            Передать показания
+          </h1>
+        </div>
+        <div class="indications__descr">
+          Показания принимаются с 23 по 25 число каждого месяца. Просим ежемесячно передавать показания для корректных начислений.
+        </div>
+        <img src="../img/indications-img.svg" class="indications__img">
+        <h2 class="indications__subtitle">
+          Отправить заявку
+        </h2>
+        <form action="https://jsonplaceholder.typicode.com/posts" id="form2" method="post" class="indications__form" autocomplete="off">
+            <input id="name" name="Имя" type="text" placeholder="Введите вашу фамилию" data-validate-field="name" autocomplete="off" required>
+            <input id="surname" name="Фамилия" type="text" placeholder="Введите ваше имя" data-validate-field="name" autocomplete="off" required>
+            <input id="street" name="Лицевой счёт" type="text" placeholder="Введите улицу" data-validate-field="name" autocomplete="off" required>
+            <input id="house" name="Сумма" type="text" placeholder="Введите номер дома" data-validate-field="name" autocomplete="off" required>
+            <input id="room" name="Сумма" type="text" placeholder="Введите номер квартиры" data-validate-field="name" autocomplete="off" required>
+            <input id="tel" name="tel" type="tel" placeholder="Введите номер телефона" data-validate-field="tel" data-validate-rules="phone" autocomplete="off">
+            <input id="indication" name="Сумма" type="text" placeholder="Введите показания" data-validate-field="name" autocomplete="off" required>
+          <button type="submit" class="indications__btn btn-reset">Отправить заявку</button>
+        </form>
       </div>
     </section>
 
@@ -177,7 +199,9 @@
   </footer>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+  <script src="../js/inputmask.min.js"></script>
   <script src="../js/script.js"></script>
+  <script src="../js/script2.js"></script>
 </body>
 </html>
