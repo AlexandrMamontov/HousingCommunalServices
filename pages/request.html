@@ -90,6 +90,32 @@
 
     <section class="request">
       <div class="container request__container">
+        <div class="request__bar">
+          <h1 class="request__title">
+            Заявка в УК
+          </h1>
+        </div>
+        <div class="request__descr">
+          Вы всегда можете обратиться к нам. Постараемся быстро помочь!
+        </div>
+        <div class="request__text">
+          Мы стараемся максимально взаимодействовать с клиентами и постоянно совершенствуемся. Теперь, для наиболее эффективного контакта с клиентами, вы можете оставить заявку специалисту по Вашему дому напрямую.
+        </div>
+        <img src="../img/request-img.png" class="request__img">
+        <h2 class="request__subtitle">
+          Отправить заявку
+        </h2>
+        <form action="https://jsonplaceholder.typicode.com/posts" id="form3" method="post" class="request__form" autocomplete="off">
+            <input id="surname" name="Фамилия" type="text" placeholder="Введите вашу фамилию" data-validate-field="name" autocomplete="off" required>
+            <input id="name" name="Имя" type="text" placeholder="Введите ваше имя" data-validate-field="name" autocomplete="off" required>
+            <input id="street" name="Улица" type="text" placeholder="Введите улицу" data-validate-field="name" autocomplete="off" required>
+            <input id="house" name="Номер дома" type="text" placeholder="Введите номер дома" data-validate-field="name" autocomplete="off" required>
+            <input id="room" name="Номер квартиры" type="text" placeholder="Введите номер квартиры" data-validate-field="name" autocomplete="off" required>
+            <input id="tel" name="Телефон" type="tel" placeholder="Введите номер телефона" data-validate-field="tel" data-validate-rules="phone" autocomplete="off">
+            <input id="email" name="Email" type="email" placeholder="Введите ваш email адрес" data-validate-field="mail" autocomplete="off">
+            <input id="request" name="Заявка" type="text" placeholder="Ваша заявка" data-validate-field="name" autocomplete="off" required>
+          <button type="submit" class="request__btn btn-reset">Отправить заявку</button>
+        </form>
       </div>
     </section>
 
@@ -177,7 +203,9 @@
   </footer>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+  <script src="../js/inputmask.min.js"></script>
   <script src="../js/script.js"></script>
+  <script src="../js/script-request.js"></script>
 </body>
 </html>

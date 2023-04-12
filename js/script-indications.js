@@ -1,4 +1,4 @@
-// validate form2
+// validate form
 let validation2 = new JustValidate('#form2', {
   errorLabelStyle: {
     color: '#FF5C00'
