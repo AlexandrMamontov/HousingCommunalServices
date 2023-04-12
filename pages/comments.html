@@ -90,6 +90,25 @@
 
     <section class="comments">
       <div class="container comments__container">
+        <div class="comments__bar">
+          <h1 class="comments__title">
+            Заявка в УК
+          </h1>
+        </div>
+        <h2 class="comments__subtitle">
+          Отправить заявку
+        </h2>
+        <form action="https://jsonplaceholder.typicode.com/posts" id="form4" method="post" class="comments__form" autocomplete="off">
+            <input id="surname" name="Фамилия" type="text" placeholder="Введите вашу фамилию" data-validate-field="name" autocomplete="off" required>
+            <input id="name" name="Имя" type="text" placeholder="Введите ваше имя" data-validate-field="name" autocomplete="off" required>
+            <input id="street" name="Улица" type="text" placeholder="Введите улицу" data-validate-field="name" autocomplete="off" required>
+            <input id="house" name="Номер дома" type="text" placeholder="Введите номер дома" data-validate-field="name" autocomplete="off" required>
+            <input id="room" name="Номер квартиры" type="text" placeholder="Введите номер квартиры" data-validate-field="name" autocomplete="off" required>
+            <input id="tel" name="Телефон" type="tel" placeholder="Введите номер телефона" data-validate-field="tel" data-validate-rules="phone" autocomplete="off">
+            <input id="email" name="Email" type="email" placeholder="Введите ваш email адрес" data-validate-field="mail" autocomplete="off">
+            <input id="comments" name="Отзыв" type="text" placeholder="Ваш отзыв" data-validate-field="name" autocomplete="off" required>
+          <button type="submit" class="comments__btn btn-reset">Отправить заявку</button>
+        </form>
       </div>
     </section>
 
@@ -177,7 +196,9 @@
   </footer>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+  <script src="../js/inputmask.min.js"></script>
   <script src="../js/script.js"></script>
+  <script src="../js/script-comments.js"></script>
 </body>
 </html>
