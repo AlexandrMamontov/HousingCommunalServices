@@ -128,6 +128,15 @@
     right: 60px;
   }
 
+  .tariff__container {
+    padding: 0 60px;
+  }
+
+  .tariff__text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
   .footer__container {
     padding: 40px 60px;
   }
@@ -193,6 +202,10 @@
     right: 20px;
   }
 
+  .tariff__container {
+    padding: 0 20px;
+  }
+
   .footer__container {
     padding: 20px;
   }
@@ -220,6 +233,19 @@
   .form {
     top: 94px;
     width: 80%;
+  }
+
+  .tariff__bar {
+    height: 60px;
+  }
+
+  .tariff__title {
+    font-size: 20px;
+  }
+
+  .tariff__text {
+    font-size: 15px;
+    line-height: 25px;
   }
 
   .footer__item {
