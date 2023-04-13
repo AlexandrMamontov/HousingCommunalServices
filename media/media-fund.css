@@ -128,6 +128,10 @@
     right: 60px;
   }
 
+  .fund__container {
+    padding: 0 60px;
+  }
+
   .footer__container {
     padding: 40px 60px;
   }
@@ -182,6 +186,19 @@
   .form {
     width: 400px;
   }
+
+  .table {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  th {
+    padding: 16px 16px 28px;
+  }
+
+  td {
+    padding: 16px 16px 28px;
+  }
 }
 
 @media (max-width: 680px) {
@@ -191,6 +208,10 @@
 
   .form {
     right: 20px;
+  }
+
+  .fund__container {
+    padding: 0 20px;
   }
 
   .footer__container {
@@ -222,6 +243,19 @@
     width: 80%;
   }
 
+  .fund__bar {
+    height: 60px;
+  }
+
+  .fund__title {
+    font-size: 25px;
+  }
+
+  .fund__descr {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
   .footer__item {
     width: calc(100% - 40px);
   }
@@ -240,5 +274,20 @@
 
   .footer__text {
     margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .table {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  th {
+    padding: 16px;
+  }
+
+  td {
+    padding: 16px;
   }
 }
