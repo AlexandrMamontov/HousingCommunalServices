@@ -128,6 +128,10 @@
     right: 60px;
   }
 
+  .documents__container {
+    padding: 0 60px;
+  }
+
   .footer__container {
     padding: 40px 60px;
   }
@@ -193,6 +197,10 @@
     right: 20px;
   }
 
+  .documents__container {
+    padding: 0 20px;
+  }
+
   .footer__container {
     padding: 20px;
   }
@@ -220,6 +228,14 @@
   .form {
     top: 94px;
     width: 80%;
+  }
+
+  .documents__bar {
+    height: 60px;
+  }
+
+  .documents__title {
+    font-size: 25px;
   }
 
   .footer__item {

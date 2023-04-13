@@ -256,6 +256,10 @@ body {
 }
 
 /* fund */
+.fund {
+  margin-bottom: 50px;
+}
+
 .fund__container {
   padding: 0 140px;
   display: -webkit-box;
